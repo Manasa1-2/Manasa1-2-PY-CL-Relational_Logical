@@ -6,7 +6,10 @@ def equal_to(a, b):
     :param b: second number.
     :return: True if a is equal to b, False otherwise.
     """
-    return 0
+    if a == b:
+        return True
+    else:
+        return 0
 
 def greater_than(a, b):
     """
@@ -17,7 +20,10 @@ def greater_than(a, b):
     :param b: second number.
     :return: True if a is greater than b, False otherwise.
     """
-    return 0
+    if a>b:
+        return True
+    else:
+        return False
 
 def less_than(a, b):
     """
@@ -28,7 +34,10 @@ def less_than(a, b):
     :param b: second number.
     :return: True if a is less than b, False otherwise.
     """
-    return 0
+    if a<b:
+        return True
+    else:
+        return False
 
 def greater_than_or_equal_to(a, b):
     """
@@ -38,7 +47,10 @@ def greater_than_or_equal_to(a, b):
     :param b: second number.
     :return: True if a is greater than or equal to b, False otherwise.
     """
-    return 0
+    if a>=b:
+        return True
+    else:
+        return False
 
 def less_than_or_equal_to(a, b):
     """
@@ -49,7 +61,10 @@ def less_than_or_equal_to(a, b):
     :param b: second number.
     :return: True if a is less than or equal to b, False otherwise.
     """
-    return 0
+    if a<=b:
+        return True
+    else:
+        return False
 
 def not_equal_to(a, b):
     """
@@ -59,7 +74,10 @@ def not_equal_to(a, b):
     :param b: second number.
     :return: True if a is not equal to b, False otherwise.
     """
-    return 0
+    if a!=b:
+        return True
+    else:
+        return False
 
 
 def logical_and(a, b):
@@ -70,7 +88,7 @@ def logical_and(a, b):
     :param b: second boolean value.
     :return: True if both a and b are True, False otherwise.
     """
-    return 0
+    return a and b
 
 def logical_or(a, b):
     """
@@ -80,7 +98,7 @@ def logical_or(a, b):
     :param b: second boolean value.
     :return: True if either a or b is True, False otherwise.
     """
-    return 0
+    return a or b
 
 def logical_not(a):
     """
@@ -89,4 +107,4 @@ def logical_not(a):
     :param a: boolean value.
     :return: True if a is False, False if a is True.
     """
-    return 0
+    return not a
